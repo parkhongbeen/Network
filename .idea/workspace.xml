@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="910057d1-01c4-48f2-b9df-2954439f9ec6" name="Default Changelist" comment="" />
+    <list default="true" id="910057d1-01c4-48f2-b9df-2954439f9ec6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/네트워크 정리/3-way-handshake,4-way-handshake방식의 차이점.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,9 +48,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1584871926275">
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1584972477280">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1584871926275" />
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1584972477280" />
   </component>
 </project>
