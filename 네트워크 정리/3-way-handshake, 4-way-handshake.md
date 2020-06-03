@@ -1,34 +1,30 @@
 ## TCP 3 Way-Handshake & 4 Way-Handshake
 
------
-
 ### TCP 3-way Handshake란?
 
 > TCP  통신을 위한 연결 설정 과정
 
-![image-20200310205155287](/Users/hongbeen/Library/Application Support/typora-user-images/image-20200310205155287.png)
+![image-20200310205155287](https://user-images.githubusercontent.com/53684676/83596956-f57a3a00-a5a0-11ea-9d91-6d09643f6ff4.png)
 
 #### STEP1
 
-클라이언트는 서버에 접속을 요청하는 SYN패킷을 보낸다.이 때 클라이언트는 SYN을 보내고 SYN/ACK응답을 기다리는 SYN_SENT상태가 되는 것이다.
+클라이언트는 서버에 접속을 요청하는 SYN패킷을 보낸다.이 때 클라이언트는 SYN을 보내고 SYN/ACK응답을 기다리는 **SYN_SENT**상태가 되는 것이다.
 
 #### STEP2
 
-서버는 SYN요청을 받고 클라이언트에게 요청을 수락한다는 ACK와 SYN flag가 설정된 패킷을 발송하고 클라이언트가 다시 ACK로 응답하기를 기다린다.이 때 서버는 SYN_RECEIVED상태가 된다.
+서버는 SYN요청을 받고 클라이언트에게 요청을 수락한다는 ACK와 SYN flag가 설정된 패킷을 발송하고 클라이언트가 다시 ACK로 응답하기를 기다린다.이 때 서버는 **SYN_RECEIVED(접수)**상태가 된다.
 
 #### STEP3
 
-클라이언트는 서버에게 ACK를 보내고 이후로부터는 연결리 이루어지고 데이터가 오가게 되는 것이다.이 때의 서버상태가 ESTABLISHED이다.
+클라이언트는 서버에게 ACK를 보내고 이후로부터는 연결이 이루어지고 데이터가 오가게 되는 것이다.이 때의 서버상태가 **ESTABLISHED(설립)**이다.
 
-위와 같은 방식을 통신하는것이 신뢰성있는 연결을 맺어준다는 TCP의 3 Way Handshake방식이다.
-
------
+위와 같은 방식을 통신하는것이 신뢰성있는 연결을 맺어준다는 TCP의 3-Way Handshake방식이다.
 
 ### TCP 4-Way Handshake
 
 > TCP 통신종료를 위한 일련의 과정
 
-![image-20200310205534109](/Users/hongbeen/Library/Application Support/typora-user-images/image-20200310205534109.png)
+![image-20200310205534109](https://user-images.githubusercontent.com/53684676/83596969-fad78480-a5a0-11ea-96c5-6cb024ce83de.png)
 
 #### STEP1
 
@@ -36,7 +32,7 @@
 
 #### STEP2
 
-서버는 일단 확인메시지를 보내고 자신의 통신이 끝날때까지 기다리는데 이 상태가 TIME_WAIT상태다.
+서버는 일단 확인메시지를 보내고 자신의 통신이 끝날때까지 기다리는데 이 상태가 **TIME_WAIT**상태다.
 
 #### STEP3
 
